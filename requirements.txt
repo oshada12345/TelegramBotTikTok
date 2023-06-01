@@ -1,5 +1,9 @@
-pip install python-dotenv
+python-telegram-bot==13.7
+pytube==10.8.5
+moviepy==1.0.3
+python-dotenv
 Flask
 requests
 beautifulsoup4
 telethon
+gunicorn
