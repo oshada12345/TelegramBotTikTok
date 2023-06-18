@@ -7,7 +7,7 @@ from module.messageText import *
 from lib.sendVideo import sendVideo
 from lib.sendMessage import sendMessage
 
-token_bot = dotenv_values()['TOKEN_BOT']
+token_bot = '6179143538:AAHL47_OiZ0hmLUd7yJWsUhMCdFvHtpKIv4'
 
 
 # Эта функция для вывода даты и времени в консоль разработчика, когда пользователь отправил сообщение/ссылку.
