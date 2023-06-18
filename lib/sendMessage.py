@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-apiid = os.environ.get("API_ID")
-apihash = os.environ.get("API_HASH")
-tokenbot = os.environ.get("TOKEN_BOT")
+apiid = '21204722'
+apihash = '4f5b4bbc15e7f9df9961ac92e8fd219b'
+tokenbot = '6179143538:AAHL47_OiZ0hmLUd7yJWsUhMCdFvHtpKIv4'
 
 
 def sendMessage(chat_id: int, message: str, message_id: int, file_path: str = None):
