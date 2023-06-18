@@ -5,7 +5,7 @@ from requests.exceptions import *
 from core.System import Bot
 from dotenv import dotenv_values
 
-token_bot = dotenv_values()['TOKEN_BOT']
+token_bot = '6179143538:AAHL47_OiZ0hmLUd7yJWsUhMCdFvHtpKIv4'
 
 
 # Выполняю бесконечный цикл, в котором бот получает новые смс от пользователей и отправляет их на обработку в Bot()
